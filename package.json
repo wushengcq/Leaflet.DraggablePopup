@@ -1,0 +1,18 @@
+{
+  "name": "Leaflet.DraggablePopup",
+  "version": "1.0.0",
+  "description": "This is a Leaflet.js plugin for draggable popup.",
+  "main": "DraggablePopup.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wushengcq/Leaflet.DraggablePopup.git"
+  },
+  "author": "WuSheng",
+  "devDependencies": {
+    "uglify-js": "^2.5.0"
+  },
+  "scripts": {
+    "build": "uglifyjs src/DraggablePopup.js -c -m -o dist/leaflet-draggable-popup.min.js"
+  }
+}
